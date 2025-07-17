@@ -53,8 +53,11 @@ header > nav > ul > li {
   text-decoration: none;
 }
 
-.email:hover,
-:focus {
+.email:hover {
+  color: #404bbf;
+}
+
+.email:focus {
   color: #404bbf;
 }
 
