@@ -4,25 +4,15 @@ body {
   color: #434455;
 }
 
-li,
-a {
-  list-style-type: none;
-  text-decoration: none;
-}
-
-li > a:hover,
-:focus {
-  color: #404bbf;
-}
-
 .web-logo {
   color: #4d5ae5;
   font-weight: 700;
   font-size: 18px;
-  font-family: 'Raleway';
+  font-family: 'Raleway', sans-serif;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  text-decoration: none;
 }
 
 .studio-color {
@@ -35,10 +25,24 @@ li > a:hover,
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  text-decoration: none;
+}
+
+.nav-list-item:hover,
+:focus {
+  color: #404bbf;
+}
+
+header > nav > ul > li {
+  list-style-type: none;
 }
 
 .header-address {
   font-style: normal;
+}
+
+.address-item {
+  list-style-type: none;
 }
 
 .email {
@@ -46,6 +50,17 @@ li > a:hover,
   color: #434455;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.email:hover,
+:focus {
+  color: #404bbf;
+}
+
+.telephone:hover,
+:focus {
+  color: #404bbf;
 }
 
 .telephone {
@@ -53,6 +68,7 @@ li > a:hover,
   color: #434455;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 
 .hero-container {
@@ -77,8 +93,12 @@ li > a:hover,
   letter-spacing: 0.04em;
 }
 
-.hero-btn:hover,
-:focus {
+.hero-btn:hover {
+  background-color: #404bbf;
+  color: white;
+}
+
+.hero-btn:focus {
   background-color: #404bbf;
   color: white;
 }
@@ -175,6 +195,7 @@ li > a:hover,
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  text-decoration: none;
 }
 
 .footer-studio-color {
