@@ -45,7 +45,7 @@ header > nav > ul > li {
   list-style-type: none;
 }
 
-.email {
+.address-item {
   font-size: 16px;
   color: #434455;
   line-height: 1.5;
@@ -53,28 +53,9 @@ header > nav > ul > li {
   text-decoration: none;
 }
 
-.email:hover {
+.address-item:hover,
+:focus {
   color: #404bbf;
-}
-
-.email:focus {
-  color: #404bbf;
-}
-
-.telephone:hover {
-  color: #404bbf;
-}
-
-.telephone:focus {
-  color: #404bbf;
-}
-
-.telephone {
-  font-size: 16px;
-  color: #434455;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  text-decoration: none;
 }
 
 .hero-container {
@@ -139,7 +120,7 @@ header > nav > ul > li {
 
 .our-team-title {
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
@@ -167,7 +148,7 @@ header > nav > ul > li {
 
 .portfolio-title {
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
@@ -194,7 +175,7 @@ header > nav > ul > li {
 }
 
 .footer-web-logo {
-  font-family: 'Raleway';
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
