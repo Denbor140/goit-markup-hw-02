@@ -58,8 +58,11 @@ header > nav > ul > li {
   color: #404bbf;
 }
 
-.telephone:hover,
-:focus {
+.telephone:hover {
+  color: #404bbf;
+}
+
+.telephone:focus {
   color: #404bbf;
 }
 
